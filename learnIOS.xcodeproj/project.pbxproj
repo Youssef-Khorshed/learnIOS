@@ -14,6 +14,10 @@
 		E80361582CE36588009BC6D9 /* learnIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80361572CE36588009BC6D9 /* learnIOSTests.swift */; };
 		E80361622CE36588009BC6D9 /* learnIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80361612CE36588009BC6D9 /* learnIOSUITests.swift */; };
 		E80361642CE36588009BC6D9 /* learnIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80361632CE36588009BC6D9 /* learnIOSUITestsLaunchTests.swift */; };
+		E80361752CE397FE009BC6D9 /* TextSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80361742CE397FE009BC6D9 /* TextSwiftUIView.swift */; };
+		E80361772CE39827009BC6D9 /* CircleSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80361762CE39827009BC6D9 /* CircleSwiftUIView.swift */; };
+		E80361792CE39AB6009BC6D9 /* EllipseSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80361782CE39AB6009BC6D9 /* EllipseSwiftUIView.swift */; };
+		E803617B2CE39BB5009BC6D9 /* RectangleSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E803617A2CE39BB5009BC6D9 /* RectangleSwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		E803615D2CE36588009BC6D9 /* learnIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learnIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E80361612CE36588009BC6D9 /* learnIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnIOSUITests.swift; sourceTree = "<group>"; };
 		E80361632CE36588009BC6D9 /* learnIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E80361742CE397FE009BC6D9 /* TextSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSwiftUIView.swift; sourceTree = "<group>"; };
+		E80361762CE39827009BC6D9 /* CircleSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSwiftUIView.swift; sourceTree = "<group>"; };
+		E80361782CE39AB6009BC6D9 /* EllipseSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipseSwiftUIView.swift; sourceTree = "<group>"; };
+		E803617A2CE39BB5009BC6D9 /* RectangleSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				E80361462CE36586009BC6D9 /* learnIOSApp.swift */,
 				E80361482CE36586009BC6D9 /* ContentView.swift */,
+				E803617A2CE39BB5009BC6D9 /* RectangleSwiftUIView.swift */,
+				E80361742CE397FE009BC6D9 /* TextSwiftUIView.swift */,
+				E80361762CE39827009BC6D9 /* CircleSwiftUIView.swift */,
+				E80361782CE39AB6009BC6D9 /* EllipseSwiftUIView.swift */,
 				E803614A2CE36588009BC6D9 /* Assets.xcassets */,
 				E803614C2CE36588009BC6D9 /* Preview Content */,
 			);
@@ -259,6 +271,10 @@
 			files = (
 				E80361492CE36586009BC6D9 /* ContentView.swift in Sources */,
 				E80361472CE36586009BC6D9 /* learnIOSApp.swift in Sources */,
+				E80361772CE39827009BC6D9 /* CircleSwiftUIView.swift in Sources */,
+				E80361752CE397FE009BC6D9 /* TextSwiftUIView.swift in Sources */,
+				E803617B2CE39BB5009BC6D9 /* RectangleSwiftUIView.swift in Sources */,
+				E80361792CE39AB6009BC6D9 /* EllipseSwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,20 +438,27 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"learnIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = DB2663RAYJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = learn;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = learn.learnIOS;
+				PRODUCT_BUNDLE_IDENTIFIER = khorshed.learnIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,20 +473,27 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"learnIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = DB2663RAYJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = learn;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = learn.learnIOS;
+				PRODUCT_BUNDLE_IDENTIFIER = khorshed.learnIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
