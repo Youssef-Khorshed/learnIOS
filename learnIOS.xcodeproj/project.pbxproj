@@ -18,6 +18,9 @@
 		E80361772CE39827009BC6D9 /* CircleSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80361762CE39827009BC6D9 /* CircleSwiftUIView.swift */; };
 		E80361792CE39AB6009BC6D9 /* EllipseSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80361782CE39AB6009BC6D9 /* EllipseSwiftUIView.swift */; };
 		E803617B2CE39BB5009BC6D9 /* RectangleSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E803617A2CE39BB5009BC6D9 /* RectangleSwiftUIView.swift */; };
+		E89C8C752CE4E38B00BCF528 /* ImageSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89C8C742CE4E38B00BCF528 /* ImageSwiftUIView.swift */; };
+		E89C8C772CE505A200BCF528 /* StacksSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89C8C762CE505A200BCF528 /* StacksSwiftUIView.swift */; };
+		E89C8C792CE507EB00BCF528 /* BackgroundOverlaySwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89C8C782CE507EB00BCF528 /* BackgroundOverlaySwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		E80361762CE39827009BC6D9 /* CircleSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSwiftUIView.swift; sourceTree = "<group>"; };
 		E80361782CE39AB6009BC6D9 /* EllipseSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipseSwiftUIView.swift; sourceTree = "<group>"; };
 		E803617A2CE39BB5009BC6D9 /* RectangleSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleSwiftUIView.swift; sourceTree = "<group>"; };
+		E89C8C742CE4E38B00BCF528 /* ImageSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSwiftUIView.swift; sourceTree = "<group>"; };
+		E89C8C762CE505A200BCF528 /* StacksSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksSwiftUIView.swift; sourceTree = "<group>"; };
+		E89C8C782CE507EB00BCF528 /* BackgroundOverlaySwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlaySwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +108,10 @@
 		E80361452CE36586009BC6D9 /* learnIOS */ = {
 			isa = PBXGroup;
 			children = (
+				E89C8C732CE4E35000BCF528 /* Controller */,
+				E89C8C722CE4D6C800BCF528 /* ViewModel */,
+				E89C8C712CE4D15700BCF528 /* Views */,
 				E80361462CE36586009BC6D9 /* learnIOSApp.swift */,
-				E80361482CE36586009BC6D9 /* ContentView.swift */,
-				E803617A2CE39BB5009BC6D9 /* RectangleSwiftUIView.swift */,
-				E80361742CE397FE009BC6D9 /* TextSwiftUIView.swift */,
-				E80361762CE39827009BC6D9 /* CircleSwiftUIView.swift */,
-				E80361782CE39AB6009BC6D9 /* EllipseSwiftUIView.swift */,
 				E803614A2CE36588009BC6D9 /* Assets.xcassets */,
 				E803614C2CE36588009BC6D9 /* Preview Content */,
 			);
@@ -137,6 +141,35 @@
 				E80361632CE36588009BC6D9 /* learnIOSUITestsLaunchTests.swift */,
 			);
 			path = learnIOSUITests;
+			sourceTree = "<group>";
+		};
+		E89C8C712CE4D15700BCF528 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E80361782CE39AB6009BC6D9 /* EllipseSwiftUIView.swift */,
+				E80361762CE39827009BC6D9 /* CircleSwiftUIView.swift */,
+				E80361742CE397FE009BC6D9 /* TextSwiftUIView.swift */,
+				E803617A2CE39BB5009BC6D9 /* RectangleSwiftUIView.swift */,
+				E80361482CE36586009BC6D9 /* ContentView.swift */,
+				E89C8C742CE4E38B00BCF528 /* ImageSwiftUIView.swift */,
+				E89C8C762CE505A200BCF528 /* StacksSwiftUIView.swift */,
+				E89C8C782CE507EB00BCF528 /* BackgroundOverlaySwiftUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E89C8C722CE4D6C800BCF528 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E89C8C732CE4E35000BCF528 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,11 +303,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E80361492CE36586009BC6D9 /* ContentView.swift in Sources */,
+				E89C8C772CE505A200BCF528 /* StacksSwiftUIView.swift in Sources */,
 				E80361472CE36586009BC6D9 /* learnIOSApp.swift in Sources */,
 				E80361772CE39827009BC6D9 /* CircleSwiftUIView.swift in Sources */,
 				E80361752CE397FE009BC6D9 /* TextSwiftUIView.swift in Sources */,
 				E803617B2CE39BB5009BC6D9 /* RectangleSwiftUIView.swift in Sources */,
+				E89C8C752CE4E38B00BCF528 /* ImageSwiftUIView.swift in Sources */,
 				E80361792CE39AB6009BC6D9 /* EllipseSwiftUIView.swift in Sources */,
+				E89C8C792CE507EB00BCF528 /* BackgroundOverlaySwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
