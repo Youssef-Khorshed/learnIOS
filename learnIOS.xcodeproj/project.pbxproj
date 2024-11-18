@@ -18,6 +18,14 @@
 		E80361772CE39827009BC6D9 /* CircleSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80361762CE39827009BC6D9 /* CircleSwiftUIView.swift */; };
 		E80361792CE39AB6009BC6D9 /* EllipseSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80361782CE39AB6009BC6D9 /* EllipseSwiftUIView.swift */; };
 		E803617B2CE39BB5009BC6D9 /* RectangleSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E803617A2CE39BB5009BC6D9 /* RectangleSwiftUIView.swift */; };
+		E8618CDB2CEB37F3009BBA43 /* TextFieldsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8618CDA2CEB37F3009BBA43 /* TextFieldsSwiftUIView.swift */; };
+		E8618CDD2CEB44F1009BBA43 /* TagviewSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8618CDC2CEB44F1009BBA43 /* TagviewSwiftUIView.swift */; };
+		E8618CDF2CEB5BD2009BBA43 /* OnAppearSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8618CDE2CEB5BD2009BBA43 /* OnAppearSwiftUIView.swift */; };
+		E8618CE12CEB7E68009BBA43 /* ForeachSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8618CE02CEB7E68009BBA43 /* ForeachSwiftUIView.swift */; };
+		E87E09242CE60E4A007481C4 /* ButtonsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E09232CE60E4A007481C4 /* ButtonsSwiftUIView.swift */; };
+		E87E09292CE62FB9007481C4 /* CounterSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E09282CE62FB9007481C4 /* CounterSwiftUIView.swift */; };
+		E87E092D2CE634D8007481C4 /* BackgroundSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E092C2CE634D8007481C4 /* BackgroundSwiftUIView.swift */; };
+		E87E092F2CE637FB007481C4 /* CounterBodySwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E092E2CE637FB007481C4 /* CounterBodySwiftUIView.swift */; };
 		E89C8C752CE4E38B00BCF528 /* ImageSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89C8C742CE4E38B00BCF528 /* ImageSwiftUIView.swift */; };
 		E89C8C772CE505A200BCF528 /* StacksSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89C8C762CE505A200BCF528 /* StacksSwiftUIView.swift */; };
 		E89C8C792CE507EB00BCF528 /* BackgroundOverlaySwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89C8C782CE507EB00BCF528 /* BackgroundOverlaySwiftUIView.swift */; };
@@ -55,6 +63,14 @@
 		E80361762CE39827009BC6D9 /* CircleSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSwiftUIView.swift; sourceTree = "<group>"; };
 		E80361782CE39AB6009BC6D9 /* EllipseSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipseSwiftUIView.swift; sourceTree = "<group>"; };
 		E803617A2CE39BB5009BC6D9 /* RectangleSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleSwiftUIView.swift; sourceTree = "<group>"; };
+		E8618CDA2CEB37F3009BBA43 /* TextFieldsSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsSwiftUIView.swift; sourceTree = "<group>"; };
+		E8618CDC2CEB44F1009BBA43 /* TagviewSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagviewSwiftUIView.swift; sourceTree = "<group>"; };
+		E8618CDE2CEB5BD2009BBA43 /* OnAppearSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearSwiftUIView.swift; sourceTree = "<group>"; };
+		E8618CE02CEB7E68009BBA43 /* ForeachSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeachSwiftUIView.swift; sourceTree = "<group>"; };
+		E87E09232CE60E4A007481C4 /* ButtonsSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsSwiftUIView.swift; sourceTree = "<group>"; };
+		E87E09282CE62FB9007481C4 /* CounterSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterSwiftUIView.swift; sourceTree = "<group>"; };
+		E87E092C2CE634D8007481C4 /* BackgroundSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundSwiftUIView.swift; sourceTree = "<group>"; };
+		E87E092E2CE637FB007481C4 /* CounterBodySwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterBodySwiftUIView.swift; sourceTree = "<group>"; };
 		E89C8C742CE4E38B00BCF528 /* ImageSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSwiftUIView.swift; sourceTree = "<group>"; };
 		E89C8C762CE505A200BCF528 /* StacksSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksSwiftUIView.swift; sourceTree = "<group>"; };
 		E89C8C782CE507EB00BCF528 /* BackgroundOverlaySwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlaySwiftUIView.swift; sourceTree = "<group>"; };
@@ -143,9 +159,20 @@
 			path = learnIOSUITests;
 			sourceTree = "<group>";
 		};
+		E87E09252CE62E82007481C4 /* EextractView */ = {
+			isa = PBXGroup;
+			children = (
+				E87E09282CE62FB9007481C4 /* CounterSwiftUIView.swift */,
+				E87E092C2CE634D8007481C4 /* BackgroundSwiftUIView.swift */,
+				E87E092E2CE637FB007481C4 /* CounterBodySwiftUIView.swift */,
+			);
+			path = EextractView;
+			sourceTree = "<group>";
+		};
 		E89C8C712CE4D15700BCF528 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E87E09252CE62E82007481C4 /* EextractView */,
 				E80361782CE39AB6009BC6D9 /* EllipseSwiftUIView.swift */,
 				E80361762CE39827009BC6D9 /* CircleSwiftUIView.swift */,
 				E80361742CE397FE009BC6D9 /* TextSwiftUIView.swift */,
@@ -154,6 +181,11 @@
 				E89C8C742CE4E38B00BCF528 /* ImageSwiftUIView.swift */,
 				E89C8C762CE505A200BCF528 /* StacksSwiftUIView.swift */,
 				E89C8C782CE507EB00BCF528 /* BackgroundOverlaySwiftUIView.swift */,
+				E87E09232CE60E4A007481C4 /* ButtonsSwiftUIView.swift */,
+				E8618CDA2CEB37F3009BBA43 /* TextFieldsSwiftUIView.swift */,
+				E8618CDC2CEB44F1009BBA43 /* TagviewSwiftUIView.swift */,
+				E8618CDE2CEB5BD2009BBA43 /* OnAppearSwiftUIView.swift */,
+				E8618CE02CEB7E68009BBA43 /* ForeachSwiftUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -302,14 +334,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8618CDF2CEB5BD2009BBA43 /* OnAppearSwiftUIView.swift in Sources */,
 				E80361492CE36586009BC6D9 /* ContentView.swift in Sources */,
+				E87E092F2CE637FB007481C4 /* CounterBodySwiftUIView.swift in Sources */,
+				E8618CDD2CEB44F1009BBA43 /* TagviewSwiftUIView.swift in Sources */,
 				E89C8C772CE505A200BCF528 /* StacksSwiftUIView.swift in Sources */,
 				E80361472CE36586009BC6D9 /* learnIOSApp.swift in Sources */,
 				E80361772CE39827009BC6D9 /* CircleSwiftUIView.swift in Sources */,
+				E87E092D2CE634D8007481C4 /* BackgroundSwiftUIView.swift in Sources */,
 				E80361752CE397FE009BC6D9 /* TextSwiftUIView.swift in Sources */,
+				E87E09292CE62FB9007481C4 /* CounterSwiftUIView.swift in Sources */,
 				E803617B2CE39BB5009BC6D9 /* RectangleSwiftUIView.swift in Sources */,
 				E89C8C752CE4E38B00BCF528 /* ImageSwiftUIView.swift in Sources */,
 				E80361792CE39AB6009BC6D9 /* EllipseSwiftUIView.swift in Sources */,
+				E87E09242CE60E4A007481C4 /* ButtonsSwiftUIView.swift in Sources */,
+				E8618CDB2CEB37F3009BBA43 /* TextFieldsSwiftUIView.swift in Sources */,
+				E8618CE12CEB7E68009BBA43 /* ForeachSwiftUIView.swift in Sources */,
 				E89C8C792CE507EB00BCF528 /* BackgroundOverlaySwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,7 +523,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -518,7 +558,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

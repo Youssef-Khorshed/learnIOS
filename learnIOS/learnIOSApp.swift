@@ -11,7 +11,7 @@ import SwiftUI
 struct learnIOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TextFieldsSwiftUIView()
         }
     }
 }

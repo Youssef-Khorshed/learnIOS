@@ -8,12 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State  var email : Double=0
     var body: some View {
         VStack(spacing:20){
-            
-            RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/,style: .circular).foregroundColor(Color(.rectangleColors)).frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/,height: 100)
-          
-      
+            TextField("Email", value: $email, format: .number).background(.gray.opacity(0.5)).padding(.horizontal,20)
         }
         
     }
